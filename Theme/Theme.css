@@ -1,0 +1,84 @@
+/*MADE BY YASH JANGID*/
+*{
+   padding: 0px;
+   margin: 0px;
+}
+body{
+    background-color: white;
+}
+.header{
+    text-align: center;
+    height: 100px;
+    background-color: rgb(0, 59, 0);
+}
+.header :hover{
+    background-color: grey;
+    height: 100px;
+}
+.header h1{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 80px;
+}
+a {
+    width: 100px;
+    text-decoration: none;
+    color: grey;
+}
+a :hover{
+    color:rgb(0, 59, 0);
+}
+.mid {
+    text-align: center;
+}
+#gret{
+    font-weight: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#tap{
+    margin-top: 10px;
+    text-align: center;
+    font-weight: none;
+    font-size: 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation: color 2s ease-in-out infinite;
+}
+.main{
+    width: 200px;
+    height: 80px;
+    border: 5px #01204E solid;
+    border-radius: 100px;
+    cursor: pointer;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#action{
+    background-color: #028391;
+    margin-top: 15px;
+    margin-left: 5px;
+    width: 50px;
+    height: 50px;
+    border: 5px transparent;
+    border-radius: 100%;
+    cursor: pointer;
+}
+#foot{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 150px;
+    text-align: center;
+    color:black;
+    cursor: pointer;
+    font-size: 40px;
+}
+@keyframes color{
+    0%{
+        color:#344C64;
+    }
+    50%{
+         color:#577B8D;
+    }
+    100%{
+        color:#57A6A1;
+    }
+}
